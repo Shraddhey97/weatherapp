@@ -1,0 +1,56 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/87/851/622/laptop-backgrounds-nature-images-1920x1200-wallpaper-preview.jpg);
+}
+
+.weather-container {
+  border-color: white;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 187);
+  color: #fff;
+  border: none;
+  transition: background-color 1s ease;
+  border-radius: 8px;
+  border-color: black;
+}
+
+button:hover {
+  background-color: #0a82e4;
+  color: black;
+}
+#cityInput {
+  border-radius: 8px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
